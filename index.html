@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Жилой комплекс</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mobile-menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section class="main">
+      <div class="container">
+        <header class="main__header">
+          <a href="#" class="main__logo">
+            <img src="img/logo.svg" alt="Логотип HouseVOP" />
+            <span>жилой комплекс</span>
+          </a>
+          <nav class="main__nav">
+            <ul class="main__list">
+              <li class="main__item">
+                <a href="#">О комплексе</a>
+              </li>
+              <li class="main__item">
+                <a href="#">Район</a>
+              </li>
+              <li class="main__item">
+                <a href="#">Каталог квартир</a>
+              </li>
+              <li class="main__item">
+                <a href="#">Ипотека</a>
+              </li>
+              <li class="main__item">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- mibile menu begin -->
+          <div class="menu">
+            <nav class="menu__nav">
+              <ul class="menu__list r-list">
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">Главная</a>
+                </li>
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">О комплексе</a>
+                </li>
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">Район</a>
+                </li>
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">Каталог квартир</a>
+                </li>
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">Ипотека</a>
+                </li>
+                <li class="menu__group">
+                  <a href="#" class="menu__link r-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="menu__toggle r-button" type="button">
+              <span class="menu__hamburger m-hamburger">
+                <span class="m-hamburger__label">
+                  <span class="menu__screen-reader screen-reader"
+                    >Открыть меню</span
+                  >
+                </span>
+              </span>
+            </button>
+          </div>
+          <!-- mobile menu end -->
+
+          <!-- header -->
+        </header>
+        <div class="main__wrapper">
+          <h1 class="main__title">
+            Жилой комплекс в историческом центре
+          </h1>
+          <img src="img/mouse.svg" alt="Прокрути вниз" class="main__mouse" />
+
+          <div class="main__contact">
+            <p class="main__adress">
+              <img src="img/location.svg" alt="Адрес" width="15" height="21" />
+              Наб. реки Фонтанки 10-15
+            </p>
+            <a href="tel:+88121234567" class="main__phone">
+              <img src="img/phone.svg" alt="Телефон" width="21" height="21" />
+              8 (812) 123-45-67
+            </a>
+            <!-- main__contact -->
+          </div>
+          <!-- main__wrapper -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- main -->
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <ul class="testimonials__list">
+          <li class="testimonials__item testimonials__item-1">
+            <img src="img/bench.svg" alt="Иконка парка" />
+            <h5 class="testimonials__title">
+              Рядом исторические парки и скверы
+            </h5>
+          </li>
+          <li class="testimonials__item testimonials__item-2">
+            <img src="img/building.svg" alt="Иконка здания" />
+            <h5 class="testimonials__title">Полностью обустроенный</h5>
+          </li>
+          <li class="testimonials__item testimonials__item-3">
+            <img src="img/fountain.svg" alt="Иконка Фонтана" />
+            <h5 class="testimonials__title">10 фонтанов на территории</h5>
+          </li>
+          <li class="testimonials__item testimonials__item-4">
+            <img src="img/bicycle.svg" alt="Иконка велосипеда" />
+            <h5 class="testimonials__title">6 км велодорожек</h5>
+          </li>
+        </ul>
+        <!-- container -->
+      </div>
+      <!-- testimonials -->
+    </section>
+    <section class="apartments">
+      <div class="container">
+        <h2 class="apartments__title">
+          Наши квартиры
+        </h2>
+        <div class="apartments__block">
+          <div class="apartments__item apartments__item-1">
+            <p class="apartments__intro">Лофт — 3 этажа</p>
+          </div>
+          <div class="apartments__item apartments__item-2">
+            <p class="apartments__intro">Лофт — 2 этажа</p>
+          </div>
+          <div class="apartments__item apartments__item-3">
+            <p class="apartments__intro">Лофт — 3 этажа</p>
+          </div>
+          <div class="apartments__item apartments__item-4">
+            <p class="apartments__intro">Лофт — 2 этажа</p>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- apartments -->
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="contact__text-block">
+          <h2 class="contact__title">
+            Хотите посмотреть?
+          </h2>
+          <p class="contact__text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века. В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм шрифтов, используя Lorem
+            Ipsum для распечатки образцов.
+          </p>
+        </div>
+        <div class="contact__form-block">
+          <form
+            class="contact__form"
+            action="https://echo.htmlacademy.ru"
+            method="POST"
+          >
+            <p>
+              <input
+                class="contact__input-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+              />
+            </p>
+            <p>
+              <input
+                class="contact__input-phone"
+                type="text"
+                name="phone"
+                placeholder="Ваш телефон"
+              />
+            </p>
+            <p class="contact__form-text">
+              *Мы никому не передаем ваши данные. И не сохраняем ваш номер в
+              базу.
+            </p>
+            <button class="contact__form-btn" type="submit">
+              Посмотреть район
+            </button>
+          </form>
+        </div>
+
+        <!-- container -->
+      </div>
+      <!-- contact -->
+    </section>
+    <section class="video-section">
+      <div class="container">
+        <div class="video__wrapper">
+          <img
+            src="img/video-poster.jpg"
+            alt="Видео презентация"
+            class="video"
+          />
+          <img
+            src="img/play-btn.svg"
+            alt="Посмотреть видео"
+            class="video__play-btn"
+          />
+        </div>
+        <!-- container -->
+      </div>
+      <!-- video-section -->
+    </section>
+    <section class="map">
+      <div class="container">
+        <h2 class="map__title">
+          Район на карте
+        </h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1296.8660207186997!2d69.24931680081592!3d41.31592613996173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b40d847941d%3A0x5765a18b352df71e!2sTashkent%20City%20Park!5e0!3m2!1sru!2s!4v1597068050627!5m2!1sru!2s"
+          width="100%"
+          height="360"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+        <!-- container -->
+      </div>
+      <!-- map -->
+    </section>
+    <section class="askme">
+      <div class="container">
+        <h2 class="askme__title">
+          Есть вопросы?
+        </h2>
+        <form
+          action="https://echo.htmlacademy.ru"
+          method="post"
+          class="askme__form"
+        >
+          <p class="askme__intro">
+            *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          </p>
+          <p class="askme__input-p">
+            <input
+              class="askme__input-name"
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+            />
+          </p>
+          <p class="askme__input-p">
+            <input
+              class="askme__input-phone"
+              type="text"
+              name="phone"
+              placeholder="Ваш телефон"
+            />
+          </p>
+          <button class="askme__form-btn" type="submit">
+            Посмотреть район
+          </button>
+        </form>
+        <!-- container -->
+      </div>
+      <!-- askme -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="main__logo">
+          <img src="img/logo.svg" alt="Логотип HouseVOP" />
+          <span>жилой комплекс</span>
+        </a>
+        <div class="footer__site-map">
+          <ul class="footer__site-map-list footer__site-map--1-column">
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">О комплексе</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Район</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Каталог квартир</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Ипотека</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="footer__site-map-list footer__site-map--2-column">
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">О комплексе</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Район</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Каталог квартир</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Ипотека</a>
+            </li>
+            <li class="footer__site-map-item">
+              <a href="#" class="footer__site-map--link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              Адрес: Наб. реки Фонтанки 10-15
+            </li>
+            <li class="footer__contact-item">
+              Телефон:
+              <a href="tel:+998946341264" class="footer__contact-item--phone"
+                >+998 (94) 634-12-64</a
+              >
+            </li>
+            <li class="footer__contact-item">
+              Отдел продаж: 10:00 - 20:00
+            </li>
+            <li class="footer__contact-item">
+              E-mail:
+              <a
+                href="mailto:rustammagic9@gmail.com"
+                class="footer__contact-item--email"
+                >vip@housevip.ru</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__social">
+            <li class="footer__social-icon">
+              <a href="#" class="footer__social-icon-link">
+                <img
+                  src="img/youtube.svg"
+                  alt="Подписывайтесь на наш канал в Youtube"
+                />
+              </a>
+            </li>
+            <li class="footer__social-icon">
+              <a href="#" class="footer__social-icon-link">
+                <img src="img/vk.svg" alt="Мы ВКонтакте" />
+              </a>
+            </li>
+            <li class="footer__social-icon">
+              <a href="#" class="footer__social-icon-link">
+                <img src="img/fb.svg" alt="Мы в Фейсбук" />
+              </a>
+            </li>
+            <li class="footer__social-icon">
+              <a href="#" class="footer__social-icon-link">
+                <img src="img/ig.svg" alt="Мы в инстаграм" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- footer -->
+    </footer>
+
+    <script src="js/mobile-menu.js"></script>
+  </body>
+</html>
